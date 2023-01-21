@@ -1,0 +1,31 @@
+.father{
+    display: flex;
+    margin: 10px;
+
+
+    text-align: center;
+    justify-content: center;
+}
+
+.daughter{
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    width: 400px;
+
+    border: 1px solid black;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+.father-in-low{
+    background-color: lightskyblue;
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    width: 132px;
+
+    text-align: center;
+    justify-content: center;
+}
