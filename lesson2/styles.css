@@ -2,6 +2,15 @@
     display: flex;
     margin: 10px;
 
+    text-align: center;
+    justify-content: center;
+}
+.upper-box{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    width: 400px;
+    height: 100px;
 
     text-align: center;
     justify-content: center;
@@ -10,22 +19,33 @@
 .daughter{
     display: flex;
     flex-direction: row;
-    background-color: blue;
     width: 400px;
-
-    border: 1px solid black;
     height: 100px;
+
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-.father-in-low{
+.father-in-law{
     background-color: lightskyblue;
     display: flex;
-    border: 1px solid black;
     flex-direction: column;
-    width: 132px;
+    width: 120px;
 
     text-align: center;
     justify-content: center;
 }
+
+.lower-box{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    width: 400px;
+    height: 250px;
+
+    text-align: center;
+    justify-content: center;
+
+}
+
+
