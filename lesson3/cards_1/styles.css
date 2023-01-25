@@ -1,0 +1,73 @@
+.father{
+    display: flex;
+    width: 1400px;
+    height: 700px;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   background: beige;
+}
+
+.border{
+    border: 1px solid black;
+}
+
+.box{
+    margin: 15px;
+    position: relative;
+    height: 400px;
+    width: 300px;
+    background: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icon{
+    display: flex;
+    top: -50px;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: pink;
+
+    align-items: center;
+    justify-content: center;
+
+}
+.fa-sharp{
+   font-size: 40px;
+}
+
+.text{
+    color: dodgerblue;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    color: black;
+}
+
+.button{
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 50px;
+    background: darkgrey;
+}
+.button:hover{
+    background: lightgrey;
+}
+
+
+
+
