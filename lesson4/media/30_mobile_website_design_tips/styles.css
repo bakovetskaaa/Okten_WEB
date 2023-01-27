@@ -1,0 +1,50 @@
+
+.box{
+    font-size: 25px;
+    color: black;
+    font-style: italic;
+
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 15% 50% 35%;
+    grid-template-rows: repeat( 5, 100px);
+
+}
+.item{
+    border: 1px solid black;
+}
+.header{
+    grid-column-start: span 2;
+
+}
+
+.nav{
+    grid-row-start: span 4;
+}
+
+.bath-section-info{
+    grid-row-start: span 2;
+}
+.ad{
+    grid-row-start: span 2;
+}
+
+.types-of-baths{
+    grid-row-start: span 4;
+}
+
+.related-products{
+    grid-row-start: span 4;
+}
+
+.store-locator{
+    height: 100px;
+}
+
+.tools{
+    height: 100px;
+}
+
+.footer{
+    grid-column-start: span 3;
+}

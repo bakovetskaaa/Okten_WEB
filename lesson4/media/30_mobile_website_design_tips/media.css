@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px){
+
+    .header{
+        grid-column-start: span 2;
+        height: 98px;
+
+    }
+
+    .nav{
+        grid-column-start: span 3;
+        grid-row-start: span 1;
+    }
+
+    .bath-section-info{
+        grid-column-start: span 1.5;
+        grid-row-start: span 1.5;
+    }
+    .ad{
+        grid-column-start: span 1.5;
+        grid-row-start: span 1.5;
+    }
+
+    .types-of-baths{
+        height: 400px;
+        grid-column-start: span 3;
+    }
+
+    .related-products{
+        grid-row-start: span 4;
+        grid-column-start: span 3;
+        height: 200px;
+    }
+
+    .store-locator{
+        height: 100px;
+        grid-row-start: span 1.5;
+        grid-column-start: span 1.5;
+    }
+
+    .tools{
+        height: 100px;
+        grid-column-start: span 1.5;
+        grid-row-start: span 1.5;
+    }
+
+}
