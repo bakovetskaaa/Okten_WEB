@@ -1,0 +1,40 @@
+
+@media screen and (max-width: 768px){
+
+
+    .father{
+
+        width: 100%;
+        height: 384px;
+
+    }
+
+    .first-box{
+        width: 100%;
+        height: 70px;
+
+    }
+
+    .div-div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .second-box{
+
+        width: 100%;
+        height: 240px;
+        margin-bottom: 10px;
+    }
+
+    .third-box{
+
+        width: 100%;
+        height: 70px;
+        display: flex;
+        margin: 0;
+
+        align-items: center;
+        justify-content: space-around;
+    }
+}
