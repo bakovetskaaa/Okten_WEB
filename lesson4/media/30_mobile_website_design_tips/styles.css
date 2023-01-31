@@ -1,3 +1,12 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
 
 .box{
     font-size: 25px;
@@ -37,9 +46,9 @@
     grid-row-start: span 4;
 }
 
-.store-locator{
-    height: 100px;
-}
+/*.store-locator{*/
+/*    height: 100px;*/
+/*}*/
 
 .tools{
     height: 100px;
